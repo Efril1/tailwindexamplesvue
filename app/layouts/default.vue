@@ -91,7 +91,27 @@ const items = ref<NavigationMenuItem[][]>([
           to: '/page16'
         },
       ]
-    }
+    },
+    {
+      label: 'grid / flexbox',
+      icon: 'i-lucide-box',
+      active: true,
+      defaultOpen: true,
+      children: [
+        {
+          label: 'flex-basis',
+          icon: 'i-lucide-file-text',
+          to: '/page17'
+        },
+        {
+          label: 'flex-col',
+          icon: 'i-lucide-file-text',
+          to: '/page18'
+        },
+      ]
+   }
+    
+
   ],
   [
     {
